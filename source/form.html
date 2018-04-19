@@ -27,7 +27,7 @@
           </li>
         </ul>
         <a href="index.html" class="page-header__logo">
-            <img class="page-header__logo-image" src="img/index-logo.svg" width="102" height="83" alt="Логотип">
+          <img class="page-header__logo-image" src="img/index-logo.svg" width="102" height="83" alt="Логотип">
         </a>
         <button class="mobile-menu-open">Открыть меню</button>
       </div>
@@ -45,22 +45,22 @@
     <form class="reviews-form" method="post" action="https://echo.htmlacademy.ru">
       <section class="name">
         <span class="name__title">Представьтесь:</span>
-        <label for="name__field">Имя<sup>*</sup>:</label>
-        <input type="text" name="name" id="name__field" placeholder="Петр" required>
-        <label for="name__field">Фамилия<sup>*</sup>:</label>
-        <input type="text" name="name" id="name__field" placeholder="Иванов" required>
-        <label for="name__field">Отчество</label>
-        <input type="text" name="name" id="name__field" placeholder="Александрович">
+        <label for="name" class="name__text">Имя<sup>*</sup>:</label>
+        <input type="text" name="name" id="name" placeholder="Петр" required>
+        <label for="surname" class="name__text">Фамилия<sup>*</sup>:</label>
+        <input type="text" name="surname" id="surname" placeholder="Иванов" required>
+        <label for="patronymic" class="name__text">Отчество</label>
+        <input type="text" name="patronymic" id="patronymic" placeholder="Александрович">
       </section>
       <section class="contacts">
-        <spanspan class="contacts__title">Контактная информация:</spanspan>
+        <span class="contacts__title">Контактная информация:</span>
         <label for="tel" class="contacts__tel">Контактный телефон<sup>*</sup>:</label>
         <input type="tel" name="tel" id="tel" placeholder="Введите телефон" required>
         <label for="e-mail" class="contacts__e-mail">Электронная почта<sup>*</sup>:</label>
         <input type="email" name="e-mail" id="e-mail" placeholder="Введите e-mail" required>
       </section>
       <section class="impression">
-        <spanspanspan class="impression__title">Ваше общее впечатление:</spanspanspan>
+        <span class="impression__title">Ваше общее впечатление:</span>
         <ul class="impression__list">
           <li class="impression__option">
             <input type="radio" name="impression" value="positive" id="positive" checked>
@@ -127,16 +127,16 @@
     </div>
   </footer>
 
-  <section class="modal">
+  <section class="popup">
     <p class="popup__title">Что-то пошло не так!</p>
     <p class="popup__info">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
-    <button class="popup__close" type="button">ОК</button>
+    <button class="popup-close" type="button">ОК</button>
   </section>
-  <section class="modal">
+  <section class="popup">
     <p class="popup__title">Ваш отзыв отправлен!</p>
     <p class="popup__info">Спасибо за ваше участие, ваш отзыв уже поступил к нам.</p>
     <p class="popup__info">В ближайшее время мы опубликуем его на сайте.</p>
-    <button class="popup__close" type="button">Закрыть окно</button>
+    <button class="popup-close" type="button">Закрыть окно</button>
   </section>
 
 </body>
