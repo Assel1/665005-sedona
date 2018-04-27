@@ -12,8 +12,8 @@
   line-height: 26px;
   padding-bottom: 20px;
   padding-top: 43px;
+  color: $white;
 }
-
 
 .bridge__text-inversed {
   @include no-indents;
@@ -21,16 +21,9 @@
   font-weight: 400;
   line-height: 21px;
   padding-bottom: 43px;
+  color: $white;
 }
 
 .bridge__text-inversed--order {
   padding-bottom: 20px;
-}
-
-.bridge__text-inversed {
-  color: $white;
-}
-
-.bridge__title-inversed {
-  color: $white;
 }

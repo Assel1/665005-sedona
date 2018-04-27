@@ -4,7 +4,6 @@
   font-weight: $title-weight;
   line-height: $text-height;
   text-align: center;
-
 }
 
 .reviews__intro {
@@ -15,6 +14,7 @@
   text-align: center;
   @include no-indents;
 }
+
 .reviews__slogan {
   color: $light-black;
   font-size: $text-size;
