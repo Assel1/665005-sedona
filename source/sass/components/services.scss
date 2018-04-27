@@ -1,5 +1,6 @@
 .services {
   background: $white;
+
   @include no-indents;
   text-align: left;
   list-style: none;
@@ -8,11 +9,10 @@
   position: relative;
 }
 
-
 .services__title--img:after {
   content: "";
   position: absolute;
-  background: url(../img/icon-house.svg);
+  background: url("../img/icon-house.svg");
   width: 39px;
   height: 37px;
   top: 26px;
@@ -22,7 +22,7 @@
 .services__title--img-gift:after {
   content: "";
   position: absolute;
-  background: url(../img/icon-gift.svg);
+  background: url("../img/icon-gift.svg");
   width: 32px;
   height: 38px;
   top: 152px;
@@ -32,7 +32,7 @@
 .services__title--img-food:after {
   content: "";
   position: absolute;
-  background: url(../img/icon-burger.svg);
+  background: url("../img/icon-burger.svg");
   width: 40px;
   height: 35px;
   top: 262px;
@@ -40,6 +40,7 @@
 }
 
 .services__title {
+
   @include no-indents;
   font-size: 18px;
   font-weight: 700;
@@ -49,6 +50,7 @@
 }
 
 .services__text {
+
   @include no-indents;
   font-size: 14px;
   font-weight: 400;

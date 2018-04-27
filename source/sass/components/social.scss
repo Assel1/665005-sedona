@@ -1,4 +1,5 @@
 .social__list {
+
   @include no-indents;
   list-style: none;
 }
@@ -8,5 +9,6 @@
   padding-bottom: 39px;
   padding-right: 83px;
   padding-left: 83px;
+
   @include mobile-container;
 }
