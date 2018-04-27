@@ -7,6 +7,11 @@
   padding-left: 70px;
   padding-bottom: 42px;
   position: relative;
+
+  &:after {
+    position: absolute;
+    content: "";
+  }
 }
 
 .services__title {
@@ -19,6 +24,7 @@
 }
 
 .services__title--img {
+
   &:after {
     content: url("../img/icon-house.svg");
     width: 39px;
@@ -29,6 +35,7 @@
 }
 
 .services__title--img-gift {
+
   &:after {
     content: url("../img/icon-gift.svg");
     width: 32px;
@@ -39,6 +46,7 @@
 }
 
 .services__title--img-food {
+
   &:after {
     content: url("../img/icon-burger.svg");
     width: 40px;
@@ -56,13 +64,6 @@
   color: $light-black;
 }
 
-.services__title--img,
-.services__title--img-food,
-.services__title--img-gift {
-  &:after {
-    position: absolute;
-  }
-}
 
 //.services {
 //  background: $white;
