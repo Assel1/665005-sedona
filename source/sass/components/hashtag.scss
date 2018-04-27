@@ -1,0 +1,19 @@
+.hashtag,
+.hashtag__link {
+  @include no-indents;
+}
+
+.hashtag {
+  margin-top: 30px;
+  margin-bottom: 41px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hashtag__link {
+  color: $black;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-decoration: none;
+}

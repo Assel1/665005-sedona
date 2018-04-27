@@ -1,0 +1,57 @@
+.services {
+  background: $white;
+  @include no-indents;
+  text-align: left;
+  list-style: none;
+  padding-left: 70px;
+  padding-bottom: 42px;
+  position: relative;
+}
+
+
+.services__title--img:after {
+  content: "";
+  position: absolute;
+  background: url(../img/icon-house.svg);
+  width: 39px;
+  height: 37px;
+  top: 26px;
+  left: 23px;
+}
+
+.services__title--img-gift:after {
+  content: "";
+  position: absolute;
+  background: url(../img/icon-gift.svg);
+  width: 32px;
+  height: 38px;
+  top: 152px;
+  left: 25px;
+}
+
+.services__title--img-food:after {
+  content: "";
+  position: absolute;
+  background: url(../img/icon-burger.svg);
+  width: 40px;
+  height: 35px;
+  top: 262px;
+  left: 18px;
+}
+
+.services__title {
+  @include no-indents;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  padding-top: 37px;
+  padding-bottom: 21px;
+}
+
+.services__text {
+  @include no-indents;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: $light-black;
+}

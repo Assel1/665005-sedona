@@ -1,0 +1,24 @@
+.contacts {
+  text-align: center;
+}
+
+.contacts__title {
+  color: $black;
+  font-size: $title-size;
+  font-weight: $title-weight;
+  line-height: $text-height;
+}
+
+label {
+  color: $light-black;
+  font-size: $text-size;
+  font-weight: $text-weight;
+  line-height: 24px;
+}
+
+input {
+  color: $black;
+  font-size: $title-size;
+  font-weight: $title-weight;
+  line-height: $text-height;
+}

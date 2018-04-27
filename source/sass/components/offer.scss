@@ -1,0 +1,25 @@
+.offer {
+  background-color: $white;
+}
+
+.offer__title {
+  @include no-indents;
+  text-align: center;
+  font-size: 21px;
+  line-height: 26px;
+  color: $black;
+  margin: 30px 0 20px;
+
+}
+
+.offer__text {
+  @include no-indents;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  color: $light-black;
+  margin: 0 25px;
+  margin-bottom: 40px;
+}
+

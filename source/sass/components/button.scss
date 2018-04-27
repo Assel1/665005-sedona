@@ -1,0 +1,15 @@
+.button {
+  display: block;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  background-color: #81b3d2;
+  width: 280px;
+  height: 58px;
+  color: #ffffff;
+  @include mobile-container;
+}

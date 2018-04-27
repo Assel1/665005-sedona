@@ -1,0 +1,36 @@
+.bridge {
+  background-color: $light-blue;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.bridge__title-inversed {
+  @include no-indents;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  padding-bottom: 20px;
+  padding-top: 43px;
+}
+
+
+.bridge__text-inversed {
+  @include no-indents;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  padding-bottom: 43px;
+}
+
+.bridge__text-inversed--order {
+  padding-bottom: 20px;
+}
+
+.bridge__text-inversed {
+  color: $white;
+}
+
+.bridge__title-inversed {
+  color: $white;
+}

@@ -1,0 +1,20 @@
+.emotions {
+  text-align: center;
+}
+
+.emotions__title {
+  color: $black;
+  font-size: $title-size;
+  font-weight: $title-weight;
+  line-height: $text-height;
+  @include mobile-container;
+}
+
+.description--style {
+  color: $black;
+  font-size: $title-size;
+  font-weight: $title-weight;
+  line-height: $text-height;
+  text-transform: none;
+  @include mobile-container;
+}
