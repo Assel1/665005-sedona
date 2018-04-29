@@ -1,0 +1,21 @@
+.gallery-description__title {
+  color: $black;
+  font-size: $title-size;
+  font-weight: $title-weight;
+  line-height: $text-height;
+  text-align: center;
+}
+
+.gallery-description__phrase {
+  color: $light-black;
+  font-size: $text-size;
+  font-weight: $text-weight;
+  line-height: 24px;
+  text-align: center;
+
+  @include no-indents;
+}
+
+.gallery-description {
+  padding-bottom: 31px;
+}

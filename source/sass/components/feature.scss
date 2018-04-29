@@ -1,0 +1,33 @@
+.feature {
+  background-color: $light-blue;
+  text-align: center;
+  padding-left: 27px;
+  padding-right: 28px;
+  padding-top: 61px;
+  padding-bottom: 45px;
+  color: $white;
+}
+
+.feature__title-inversed {
+  @include no-indents;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+
+.feature__text-inversed {
+  @include no-indents;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.feature__text-number {
+  @include no-indents;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}

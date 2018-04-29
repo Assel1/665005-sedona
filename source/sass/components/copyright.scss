@@ -1,0 +1,9 @@
+.page-footer__copyright {
+  @include no-indents;
+  margin-top: 48px;
+  margin-bottom: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: $text-size;
+  line-height: 26px;
+}

@@ -1,0 +1,50 @@
+.wrapper-common {
+  margin: 0;
+  padding: 0 20px;
+  border-bottom: 1px solid $light-gray-3;
+}
+
+.gallery {
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+}
+
+.gallery__image {
+  margin: 0 auto;
+  margin-bottom: 17px;
+  width: 280px;
+  height: 280px;
+  display: block;
+}
+
+.gallery__title {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 4px;
+  text-transform: uppercase;
+  font-size: $text-size;
+  line-height: 24px;
+  font-weight: $title-weight;
+}
+
+.gallery__author {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+  text-transform: none;
+  font-size: $text-size;
+  line-height: 24px;
+  font-weight: $text-weight;
+}
+
+.gallery__likes {
+  margin: 0;
+  padding: 0;
+  padding-left: 35px;
+  padding-bottom: 18px;
+  font-size: $text-size;
+  line-height: 24px;
+  font-weight: $title-weight;
+  display: inline-block;
+}

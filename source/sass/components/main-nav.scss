@@ -1,0 +1,26 @@
+.main-nav {
+  position: relative;
+  color: #ffffff;
+  background-color: #81b3d2;
+  line-height: 40px;
+  text-align: center;
+
+  @include mobile-container;
+}
+
+.main-nav__list {
+  padding: 0;
+  margin: 0;
+  /*display: none;*/
+}
+
+.site-list__item {
+  margin: 0 auto;
+  padding: 20px 0;
+  font-size: $title-size;
+  font-weight: $title-weight;
+  line-height: $title-height;
+  color: $white;
+  background-color: $light-blue;
+  list-style: none;
+}
