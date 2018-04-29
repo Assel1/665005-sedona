@@ -1,3 +1,7 @@
+.wrapper-light {
+  @include no-indents;
+}
+
 .motives {
   background-color: $very-light-grey;
   list-style: none;
