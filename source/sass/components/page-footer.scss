@@ -1,0 +1,25 @@
+@media (min-width: $mobile-width) {
+  .page-footer__wrapper {
+    background-color: #fefefe;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .page-footer__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    background-color: #fefefe;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-footer__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    background-color: #fefefe;
+  }
+}

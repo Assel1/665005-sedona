@@ -1,4 +1,25 @@
-.map {
-  min-height: 350px;
-  background: url("../img/bg-map-mobile@1x.jpg") no-repeat;
+.map__location {
+  width: 320px;
+  height: 350px;
+  background: url("/source/img/bg-map-mobile@1x.jpg") no-repeat;
+  background-position: center;
+  margin: 0 auto;
+}
+
+@media (min-width: $tablet-width) {
+  .map__location {
+    width: 768px;
+    height: 350px;
+    background: url("/source/img/bg-map-mobile@1x.jpg") no-repeat; //должна быть другая картинка побольше
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .map__location {
+    width: 1200px;
+    height: 350px;
+    background: url("/source/img/bg-map-mobile@1x.jpg") no-repeat; //должна быть другая картинка побольше
+    margin: 0 auto;
+  }
 }

@@ -10,24 +10,54 @@
 
 .feature__title-inversed {
   @include no-indents;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 26px;
+  font-size: $title-size;
+  font-weight: $title-weight;
+  line-height: $text-height;
 }
-
 
 .feature__text-inversed {
   @include no-indents;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: $text-size;
+  font-weight: $text-weight;
   line-height: 21px;
 }
 
 .feature__text-number {
   @include no-indents;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: $text-size;
+  font-weight: $text-weight;
   line-height: 21px;
   margin-top: 14px;
   margin-bottom: 14px;
+}
+
+.reason__image {
+  width: 320px;
+  height: 260px;
+  background-image: url("../img/main-city-mobile@1x.jpg");
+  background-repeat: no-repeat;
+}
+
+@media (min-width: $tablet-width) {
+  .reason__image {
+    width: 512px;
+    background-image: url("../img/main-city-mobile@1x.jpg"); //вставить другое изображение.
+  }
+
+  .envelope-angle {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .reason__image {
+    width: 800px;
+    background-image: url("../img/main-city-mobile@1x.jpg"); //вставить другое изображение.
+  }
+
+  .envelope-angle {
+    display: flex;
+    align-items: center;
+  }
 }

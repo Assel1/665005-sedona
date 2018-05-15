@@ -27,3 +27,36 @@
 .bridge__text-inversed--order {
   padding-bottom: 20px;
 }
+
+.block-blue__bridge-image {
+  width: 320px;
+  height: 260px;
+  background-image: url("../img/main-bridge-mobile@1x.jpg");
+  background-repeat: no-repeat;
+}
+
+@media (min-width: $tablet-width) {
+  .block-blue__bridge-image {
+    width: 512px;
+    background-image: url("../img/main-bridge-mobile@1x.jpg"); //должно быть другое изображение. Это маленькое
+    order: -1;
+  }
+
+  .wrapper-colored {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .block-blue__bridge-image {
+    width: 800px;
+    background-image: url("../img/main-bridge-mobile@1x.jpg"); //должно быть другое изображение. Это маленькое
+    order: -1;
+  }
+
+  .wrapper-colored {
+    display: flex;
+    align-items: center;
+  }
+}
