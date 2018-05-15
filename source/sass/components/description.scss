@@ -1,6 +1,7 @@
 .page-main {
   width: $mobile-width;
   margin: 0 auto;
+
   @include mobile-container;
 }
 
