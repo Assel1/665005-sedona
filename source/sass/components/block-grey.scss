@@ -33,7 +33,7 @@
 }
 
 @media (min-width: $tablet-width) {
-  .block-3 {
+  .block-advantages {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -74,7 +74,7 @@
 }
 
 @media (min-width: $desktop-width) {
-  .block-3 {
+  .block-advantages {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
