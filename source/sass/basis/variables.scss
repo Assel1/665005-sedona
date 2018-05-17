@@ -1,3 +1,9 @@
+$mobile-width: 320px;
+$tablet-width: 768px;
+$desktop-width: 1200px;
+
+/*Размеры шрифта*/
+
 $title-size: 18px;
 $title-weight: 700;
 $title-transform: uppercase;
@@ -6,5 +12,6 @@ $text-weight: 400;
 $text-transform: uppercase;
 
 /*Межстрочные расстояния*/
+
 $title-height: 40px;
 $text-height: 26px;

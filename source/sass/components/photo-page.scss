@@ -1,0 +1,67 @@
+.photo-page__title {
+  color: $black;
+  font-size: $title-size;
+  font-weight: $title-weight;
+  line-height: $text-height;
+  text-align: center;
+}
+
+.photo-page__intro {
+  color: $light-black;
+  font-size: $text-size;
+  font-weight: $text-weight;
+  line-height: 24px;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+@media (min-width: $tablet-width) {
+  .photo-page__title {
+    @include no-indents;
+    margin-top: 76px;
+    margin-bottom: 40px;
+    color: $black;
+    font-size: 30px;
+    font-weight: $title-weight;
+    line-height: $text-height;
+    text-align: center;
+  }
+
+  .photo-page__intro {
+    @include no-indents;
+    color: $light-black;
+    font-size: $text-size;
+    font-weight: $text-weight;
+    line-height: 24px;
+    text-align: center;
+    width: 428px;
+    margin: 0 auto;
+    margin-bottom: 75px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .photo-page__title {
+    @include no-indents;
+    margin-top: 114px;
+    margin-bottom: 45px;
+    color: $black;
+    font-size: 30px;
+    font-weight: $title-weight;
+    line-height: $text-height;
+    text-align: center;
+  }
+
+  .photo-page__intro {
+    @include no-indents;
+    color: $light-black;
+    font-size: $text-size;
+    font-weight: $text-weight;
+    line-height: 24px;
+    text-align: center;
+    width: 428px;
+    margin: 0 auto;
+    margin-bottom: 78px;
+  }
+}
