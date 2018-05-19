@@ -1,0 +1,40 @@
+.footer-copyright {
+  @include idents_reset;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 128px;
+}
+
+.footer-copyright__span {
+  width: 100px;
+
+  @include paragraph-standart_typograph();
+  line-height: $biggest_line-height;
+}
+
+.footer-copyright__author-logo {
+  display: block;
+  width: 27px;
+  height: 34px;
+}
+
+.footer-copyright__author-icon {
+  fill: #000000;
+
+  &:hover {
+    fill: #81b3d2;
+  }
+
+  &:active {
+    fill: #b2b2b2;
+  }
+}
+
+@media (min-width: $tablet-up) {
+  .footer-copyright {
+    justify-content: flex-end;
+    padding-bottom: 37px;
+    width: 135px;
+  }
+}

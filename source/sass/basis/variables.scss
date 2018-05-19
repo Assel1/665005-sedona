@@ -1,17 +1,18 @@
-$mobile-width: 320px;
-$tablet-width: 768px;
-$desktop-width: 1200px;
+//viewports sizes
+$tablet-up: 768px;
+$desktop-up: 1200px;
 
-/*Размеры шрифта*/
+//background colors
+$menu-link-v1_bg-color: #81b3d2;
+$menu-link-v2_bg-color: #ffffff;
+$section-v1_bg-color: #ffffff;
+$section-v2_bg-color: #81b3d2;
+$section-v3_bg-color: #eeeeee;
+$section-v4_bg-color: #f2f2f2;
+$pre-load_bg-color: #81b3d2;
+$form-field_bg-color: #f2f2f2;
+$button_bg-color: #81b3d2;
 
-$title-size: 18px;
-$title-weight: 700;
-$title-transform: uppercase;
-$text-size: 14px;
-$text-weight: 400;
-$text-transform: uppercase;
-
-/*Межстрочные расстояния*/
-
-$title-height: 40px;
-$text-height: 26px;
+//mobile-link colors
+$button-hover_bg-color: #669ec0;
+$button-down_bg-color: #5496bd;

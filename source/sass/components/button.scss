@@ -1,55 +1,36 @@
-.button-blue {
-  display: block;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 21px;
-  line-height: 26px;
-  font-weight: bold;
-  background-color: #81b3d2;
-  width: 280px;
-  height: 58px;
-  color: #ffffff;
-  margin: 0 auto;
-}
-
-.button-close {
-  width: 100%;
-  padding: 17px 65px;
-  font-size: 18px;
-}
-
-.rating__button {
-  width: 23px;
-  height: 21px;
-}
-
-.button__send-form {
-  width: 280px;
-  padding: 17px 30px;
-  text-decoration: none;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 21px;
-  line-height: 26px;
-  font-weight: bold;
+.button {
   box-sizing: border-box;
-  background-color: #81b3d2;
-  color: #ffffff;
+  padding-top: 16px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 16px;
+  width: 100%;
+
+  @include standart-header_typograph();
+  font-family: inherit;
+  font-size: $biggest_txt-size;
+  color: $button_txt-color;
+  text-decoration: none;
+  text-align: center;
+
+  background-color: $button_bg-color;
+
 
   &:hover {
-    background-color: #669ec0;
+    background-color: $button-hover_bg-color;
   }
 
   &:active {
-    background-color: #5496bd;
     color: rgba(255, 255, 255, 0.3);
+
+    background-color: $button-down_bg-color;
+  }
+
+  &:disabled {
+    background-color: #e5e5e5;
   }
 }
 
-@media (min-width: $tablet-width) {
-  .button__send-form {
-    width: 50%;
-  }
+.button-disabled {
+  background-color: #e5e5e5;
 }
