@@ -1,13 +1,29 @@
-$white: #ffffff;
-$black: #000000;
-$blue: rgb(102, 158, 192);
-$dark-blue: rgb(84, 150, 189);
-$light-black: #333333;
-$light-gray: rgb(178, 178, 178);
-$light-gray-2: rgb(242, 242, 242);
-$light-gray-3: #e5e5e5;
-$light-gray-4: #d6d6d6;
-/*Цвет фона*/
+$main_font-family: "PT Sans", Arial, sans-serif;
 
-$light-blue: #81b3d2;
-$very-light-grey: #eeeeee;
+//text size
+$standart_txt-size: 14px;
+$big_txt-size: 18px;
+$biggest_txt-size: 21px;
+
+
+//line height size
+$standart_line-height: 21px;
+$big_line-height: 24px;
+$biggest_line-height: 26px;
+
+
+//text colors
+$standart_txt-color: black;
+$lighter_txt-color: #333333;
+$light_txt-color: white;
+
+
+//form text colors
+$label_txt-color: black;
+$legend_txt-color: black;
+$placeholder_txt-color: black;
+
+
+//elements text colors
+$menu-link_txt-color: white;
+$button_txt-color: white;
