@@ -1,4 +1,6 @@
-$main_font-family: "PT Sans", Arial, sans-serif;
+$main_font-family: "PT Sans",
+arial,
+sans-serif;
 
 //text size
 $standart_txt-size: 14px;
@@ -11,18 +13,15 @@ $standart_line-height: 21px;
 $big_line-height: 24px;
 $biggest_line-height: 26px;
 
-
 //text colors
 $standart_txt-color: black;
 $lighter_txt-color: #333333;
 $light_txt-color: white;
 
-
 //form text colors
 $label_txt-color: black;
 $legend_txt-color: black;
 $placeholder_txt-color: black;
-
 
 //elements text colors
 $menu-link_txt-color: white;
