@@ -123,8 +123,7 @@
   }
 }
 
-@media (min-resolution: $retina2x-dpi),
-(min-resolution: $retina2x-dppx) {
+@media (min-resolution: $retina2x-dpi), (min-resolution: $retina2x-dppx) {
   .video-presentation__video-player {
     background-image: url("../img/video-mobile@2x.jpg");
     background-repeat: no-repeat;
@@ -205,7 +204,7 @@
 }
 
 @media (min-width: $tablet-up) and (min-resolution: $retina2x-dpi),
-(min-width: $tablet-up) and (min-resolution: $retina2x-dppx) {
+  (min-width: $tablet-up) and (min-resolution: $retina2x-dppx) {
   .video-presentation__video-player {
     background-image: url("../img/video-tablet@2x.jpg");
     background-repeat: no-repeat;
@@ -250,7 +249,7 @@
 }
 
 @media (min-width: $desktop-up) and (min-resolution: $retina2x-dpi),
-(min-width: $desktop-up) and (min-resolution: $retina2x-dppx) {
+  (min-width: $desktop-up) and (min-resolution: $retina2x-dppx) {
   .video-presentation__video-player {
     background-image: url("../img/video-desktop@2x.jpg");
     background-repeat: no-repeat;
