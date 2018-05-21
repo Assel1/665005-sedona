@@ -34,3 +34,25 @@
 .button-disabled {
   background-color: #e5e5e5;
 }
+
+.button__likes-counter {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.button-gallery {
+  font-family: "PT Sans", "Arial", sans-serif;
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #81b3d2;
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+}
