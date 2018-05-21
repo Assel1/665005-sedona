@@ -452,7 +452,7 @@
 }
 
 @media (min-resolution: $retina2x-dpi),
-       (min-resolution: $retina2x-dppx) {
+        (min-resolution: $retina2x-dppx) {
   .intro__logo {
     background-image:
       url("../img/text-sedona-index.svg"),
@@ -579,7 +579,7 @@
 }
 
 @media (min-width: $tablet-up) and (min-resolution: $retina2x-dpi),
-       (min-width: $tablet-up) and (min-resolution: $retina2x-dppx) {
+        (min-width: $tablet-up) and (min-resolution: $retina2x-dppx) {
   .intro__logo {
     background-image:
       url("../img/text-sedona-index.svg"),
