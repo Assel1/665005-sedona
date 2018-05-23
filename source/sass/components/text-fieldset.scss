@@ -3,10 +3,12 @@
   flex-wrap: wrap;
   align-items: baseline;
   box-sizing: border-box;
+
   padding-top: 18px;
   padding-right: 20px;
   padding-left: 20px;
   padding-bottom: 4px;
+
   border-top: 1px solid #e5e5e5;
 }
 
@@ -43,8 +45,10 @@
 
   @include standart-header_typograph();
   font-family: inherit;
+
   border: none;
   background-color: $form-field_bg-color;
+
 
   &:hover {
     background-color: #e5e5e5;
@@ -80,6 +84,7 @@
 
   .text-fieldset__legend {
     position: relative;
+
     margin-bottom: 58px;
 
     @include biggest-header_typograph();
