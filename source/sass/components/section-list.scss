@@ -74,7 +74,28 @@
   text-align: center;
 }
 
+.section-list__item-paragraph--drive {
+  @include idents-reset();
+  padding-right: 15px;
+  padding-left: 15px;
+
+  @include paragraph-standart_typograph();
+  text-align: center;
+}
+
 .section-list__item-paragraph--white {
+  padding-right: 0;
+  padding-left: 0;
+  color: #ffffff;
+}
+
+.section-list__item-paragraph--bridge {
+  padding-right: 0;
+  padding-left: 0;
+  color: #ffffff;
+}
+
+.section-list__item-paragraph--town {
   padding-right: 0;
   padding-left: 0;
   color: #ffffff;
@@ -142,6 +163,16 @@
   @include idents-reset();
   @include paragraph-standart_typograph();
   text-align: left;
+}
+
+.section-list__sub-list-paragraph-gift {
+  @include idents-reset();
+  @include paragraph-standart_typograph();
+  text-align: left;
+}
+
+.paragraph-gift {
+  display: none;
 }
 
 .section-list__item-2-description {
@@ -215,6 +246,19 @@
     width: 170px;
   }
 
+   .section-list__item-paragraph--drive {
+    margin: 0;
+    box-sizing: border-box;
+    padding-right: 0;
+    padding-left: 0;
+    width: 148px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 21px;
+    color: #333333;
+    text-align: center;
+  }
+
   .section-list__item-picture {
     box-sizing: border-box;
     width: 66.7%;
@@ -244,7 +288,7 @@
     padding-top: 160px;
     padding-right: 0;
     padding-left: 0;
-    padding-bottom: 60px;
+    padding-bottom: 39px;
   }
 
   .section-list__sub-list-bold {
@@ -283,8 +327,19 @@
   }
 
   .section-list__sub-list-paragraph {
-    width: 165px;
+    width: 158px;
     text-align: center;
+    min-height: 84px;
+  }
+
+  .section-list__sub-list-paragraph-gift {
+    width: 162px;
+    text-align: center;
+    min-height: 84px;
+  }
+
+  .paragraph-gift {
+    display: initial;
   }
 
   .section-list__sub-list-item-1 {
@@ -330,6 +385,10 @@
 }
 
 @media (min-width: $desktop-up) {
+  .paragraph-gift {
+    display: initial;
+  }
+
   .section-list__item-description {
     padding-top: 52px;
     padding-right: 29px;
@@ -352,7 +411,27 @@
   }
 
   .section-list__item-paragraph {
+    width: 300px;
+  }
+
+  .section-list__item-paragraph--drive {
     width: 270px;
+  }
+
+  .section-list__item-paragraph--bridge {
+    box-sizing: border-box;
+    padding-right: 0;
+    padding-left: 0;
+    color: #ffffff;
+    width: 226px;
+  }
+
+  .section-list__item-paragraph--town {
+    box-sizing: border-box;
+    padding-right: 0;
+    padding-left: 0;
+    color: #ffffff;
+	width: 270px;
   }
 
   .section-list__item-picture {
@@ -374,7 +453,7 @@
   }
 
   .section-list__sub-list-item {
-    padding-bottom: 83px;
+    padding-bottom: 40px;
   }
 
   .section-list__sub-list-bold {
@@ -385,7 +464,12 @@
   }
 
   .section-list__sub-list-paragraph {
-    width: 270px;
+    width: 300px;
+    text-align: center;
+  }
+
+  .section-list__sub-list-paragraph-gift {
+    width: 303px;
     text-align: center;
   }
 
