@@ -13,6 +13,7 @@
 .page-footer__hashtag {
   @include idents_reset;
   margin-bottom: 38px;
+  padding-top: 5px;
 
   @include standart-header_typograph();
 
@@ -23,8 +24,8 @@
   .page-footer {
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 35px;
-    padding-right: 60px;
+    padding-top: 33px;
+    padding-right: 61px;
     padding-left: 60px;
     padding-bottom: 0;
   }

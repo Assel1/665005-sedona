@@ -23,7 +23,7 @@
 }
 
 .gallery__title-description {
-  padding: 28px 0 20px;
+  padding: 28px 0 18px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -36,12 +36,19 @@
   list-style: none;
   font-weight: bold;
   text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 0.6px;
 }
 
 .gallery__author {
   font-weight: normal;
   font-style: normal;
   color: #333333;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: none;
+  padding-bottom: 8px;
 }
 
 .gallery__button-like {
@@ -55,6 +62,11 @@
 
 .button__likes-counter {
   padding-left: 35px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: black;
+  letter-spacing: -0.9px;
 }
 
 @media (min-width: $tablet-up) {
@@ -97,9 +109,16 @@
 
   .gallery__title-description {
     position: relative;
-    padding: 15px 20px;
+    padding: 15px 15px 9px 21px;
     flex: none;
     background-color: #f2f2f2;
+  }
+
+  .gallery__title-description--big {
+    padding-top: 17px;
+    padding-bottom: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .gallery__button-like {
@@ -111,7 +130,8 @@
   }
 
   .gallery__button-like--position {
-    right: 28px;
+    right: 31px;
+    top: 25px;
   }
 }
 
