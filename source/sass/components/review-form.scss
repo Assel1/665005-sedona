@@ -110,6 +110,7 @@
   .footnote {
     order: 7;
     display: block;
+    margin-top: 18px;
 
     @include paragraph-standart_typograph();
     line-height: $biggest_line-height;

@@ -6,7 +6,7 @@
   padding-top: 18px;
   padding-right: 20px;
   padding-left: 20px;
-  padding-bottom: 0;
+  padding-bottom: 2px;
 
   border-top: 1px solid #e5e5e5;
 }
@@ -14,7 +14,7 @@
 .checkbox-fieldset__legend {
   @include idents-reset();
   width: 100%;
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 
   @include standart-header_typograph();
   text-align: center;
@@ -111,6 +111,7 @@
     padding-top: 25px;
     padding-right: 0;
     padding-left: 0;
+    padding-bottom: 0;
 
     border: none;
   }
@@ -171,6 +172,7 @@
 @media (min-width: $desktop-up) {
   .checkbox-fieldset {
     padding-top: 0;
+    padding-bottom: 0;
   }
 
   .checkbox-fieldset__legend {
