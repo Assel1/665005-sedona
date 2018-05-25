@@ -41,13 +41,15 @@
   z-index: 151;
 
   padding-bottom: 50px;
+  display: flex;
 }
 
 .review-form_modal-success {
-  top: 380px;
+  top: 270px;
   left: 50%;
   margin-left: -160px;
   z-index: 150;
+  display: flex;
 }
 
 .review-form_modal-header {
@@ -60,8 +62,8 @@
 }
 
 .review-form_modal-paragraph {
-  padding-bottom: 10px;
-  width: 70%;
+  padding-bottom: 20px;
+  width: 217px;
 
   @include paragraph-standart_typograph();
   line-height: $big_line-height;
