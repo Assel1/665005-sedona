@@ -7,6 +7,7 @@
   padding-right: 20px;
   padding-left: 20px;
   padding-bottom: 50px;
+
   border-top: 1px solid #e5e5e5;
 }
 
@@ -29,9 +30,17 @@
 
   @include standart-header_typograph();
   font-family: inherit;
+  overflow: auto;
+
   border: none;
   background-color: $form-field_bg-color;
+
   resize: vertical;
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 10px 3px #dc6243 inset;
+  }
 }
 
 .text-area-fieldset__field::placeholder {
@@ -46,6 +55,7 @@
     padding-left: 0;
     padding-bottom: 58px;
     width: 100%;
+
     border: none;
   }
 
@@ -53,7 +63,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 56px;
+    margin-bottom: 54px;
 
     @include biggest-header_typograph();
   }
@@ -66,6 +76,7 @@
     margin-right: 75px;
     min-width: 10px;
     height: 1px;
+
     border-bottom: 1px solid #dbdbdb;
   }
 
@@ -76,6 +87,7 @@
     margin-left: 75px;
     min-width: 10px;
     height: 1px;
+
     border-bottom: 1px solid #dbdbdb;
   }
 

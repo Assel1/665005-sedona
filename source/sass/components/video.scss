@@ -143,6 +143,7 @@
 
   .video-presentation__header {
     font-size: 30px;
+    margin-top: 38px;
   }
 
   .video-presentation__paragraph {
@@ -217,6 +218,10 @@
     padding-right: 200px;
     padding-left: 200px;
     padding-bottom: 86px;
+  }
+
+  .video-presentation__description {
+    padding-bottom: 71px;
   }
 
   .video-presentation__video-player {
