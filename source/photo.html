@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML Academy: Седона - фото и видео</title>
+  <link rel="preload" href="/fonts/ptsans.woff2" as="font">
+  <link rel="preload" href="/fonts/ptsansbold.woff2" as="font">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -55,6 +57,9 @@
             <div class="gallery__photo-wrapper gallery__photo-wrapper--big">
               <a class="gallery__photo-link" href="#">
                 <picture>
+                  <source type="image/webp" media="(min-width: 1200px)" srcset="img/photo-sunset-desktop@1x.webp 1x, img/photo-sunset-desktop@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 768px)" srcset="img/photo-sunset-tablet@1x.webp 1x, img/photo-sunset-tablet@2x.webp 2x">
+                  <source type="image/webp" srcset="img/photo-sunset-mobile@1x.webp 1x, img/photo-sunset-mobile@2x.webp 2x">
                   <source media="(min-width: 1200px)" srcset="img/photo-sunset-desktop@1x.jpg 1x, img/photo-sunset-desktop@2x.jpg 2x">
                   <source media="(min-width: 768px)" srcset="img/photo-sunset-tablet@1x.jpg 1x, img/photo-sunset-tablet@2x.jpg 2x">
                   <img class="gallery__photo gallery__photo--big" src="img/photo-sunset-mobile@1x.jpg" srcset="img/photo-sunset-mobile@2x.jpg 2x" alt="Неродные просторы">
@@ -62,11 +67,13 @@
               </a>
             </div>
             <div class="gallery__title-description gallery__title-description--big">
-              <p class="gallery__title">Неродные просторы</p>
-              <cite class="gallery__author">Автор фото: Борис</cite>
-              <button class="gallery__button-like">
+              <div class="gallery__title-description--wrapper">
+                <p class="gallery__title">Неродные просторы</p>
+                <cite class="gallery__author">Автор фото: Борис</cite>
+              </div>
+              <button class="gallery__button--like">
                 <span class="visually-hidden">Понравилось</span>
-                <span class="button__likes-counter"> 1350</span>
+                <span class="button__likes--counter"> 1350</span>
               </button>
             </div>
           </li>
@@ -74,6 +81,9 @@
             <div class="gallery__photo-wrapper">
               <a class="gallery__photo-link" href="#">
                 <picture>
+                  <source type="image/webp" media="(min-width: 1200px)" srcset="img/photo-cactus-desktop@1x.webp 1x, img/photo-cactus-desktop@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 768px)" srcset="img/photo-cactus-tablet@1x.webp 1x, img/photo-cactus-tablet@2x.webp 2x">
+                  <source type="image/webp" srcset="img/photo-cactus-mobile@1x.webp 1x, img/photo-cactus-mobile@2x.webp 2x">
                   <source media="(min-width: 1200px)" srcset="img/photo-cactus-desktop@1x.jpg 1x, img/photo-cactus-desktop@2x.jpg 2x">
                   <source media="(min-width: 768px)" srcset="img/photo-cactus-tablet@1x.jpg 1x, img/photo-cactus-tablet@2x.jpg 2x">
                   <img class="gallery__photo gallery__photo" src="img/photo-cactus-mobile@1x.jpg" srcset="img/photo-cactus-mobile@2x.jpg 2x" alt="Местная растительность">
@@ -81,11 +91,13 @@
               </a>
             </div>
             <div class="gallery__title-description">
-              <p class="gallery__title">Местная растительность</p>
-              <cite class="gallery__author">Автор фото: Сергей</cite>
-              <button class="gallery__button-like gallery__button-like--position">
+              <div class="gallery__title-description--wrapper">
+                <p class="gallery__title">Местная растительность</p>
+                <cite class="gallery__author">Автор фото: Сергей</cite>
+              </div>
+              <button class="gallery__button--like">
                 <span class="visually-hidden">Понравилось</span>
-                <span class="button__likes-counter"> 143</span>
+                <span class="button__likes--counter"> 143</span>
               </button>
             </div>
           </li>
@@ -93,6 +105,9 @@
             <div class="gallery__photo-wrapper">
               <a class="gallery__photo-link" href="#">
                 <picture>
+                  <source type="image/webp" media="(min-width: 1200px)" srcset="img/photo-roads-desktop@1x.webp 1x, img/photo-roads-desktop@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 768px)" srcset="img/photo-roads-tablet@1x.webp 1x, img/photo-roads-tablet@2x.webp 2x">
+                  <source type="image/webp" srcset="img/photo-roads-mobile@1x.webp 1x, img/photo-roads-mobile@2x.webp 2x">
                   <source media="(min-width: 1200px)" srcset="img/photo-roads-desktop@1x.jpg 1x, img/photo-roads-desktop@2x.jpg 2x">
                   <source media="(min-width: 768px)" srcset="img/photo-roads-tablet@1x.jpg 1x, img/photo-roads-tablet@2x.jpg 2x">
                   <img class="gallery__photo gallery__photo" src="img/photo-roads-mobile@1x.jpg" srcset="img/photo-roads-mobile@2x.jpg 2x" alt="Дорога на север">
@@ -100,11 +115,13 @@
               </a>
             </div>
             <div class="gallery__title-description">
-              <p class="gallery__title">Дорога на север</p>
-              <cite class="gallery__author">Автор фото: Петр</cite>
-              <button class="gallery__button-like gallery__button-like--position">
+              <div class="gallery__title-description--wrapper">
+                <p class="gallery__title">Дорога на север</p>
+                <cite class="gallery__author">Автор фото: Петр</cite>
+              </div>
+              <button class="gallery__button--like">
                 <span class="visually-hidden">Понравилось</span>
-                <span class="button__likes-counter--road"> 96</span>
+                <span class="button__likes--road"> 96</span>
               </button>
             </div>
           </li>
@@ -112,6 +129,9 @@
             <div class="gallery__photo-wrapper">
               <a class="gallery__photo-link" href="#">
                 <picture>
+                  <source type="image/webp" media="(min-width: 1200px)" srcset="img/photo-bridge-desktop@1x.webp 1x, img/photo-bridge-desktop@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 768px)" srcset="img/photo-bridge-tablet@1x.webp 1x, img/photo-bridge-tablet@2x.webp 2x">
+                  <source type="image/webp" srcset="img/photo-bridge-mobile@1x.webp 1x, img/photo-bridge-mobile@2x.webp 2x">
                   <source media="(min-width: 1200px)" srcset="img/photo-bridge-desktop@1x.jpg 1x, img/photo-bridge-desktop@2x.jpg 2x">
                   <source media="(min-width: 768px)" srcset="img/photo-bridge-tablet@1x.jpg 1x, img/photo-bridge-tablet@2x.jpg 2x">
                   <img class="gallery__photo gallery__photo" src="img/photo-bridge-mobile@1x.jpg" srcset="img/photo-bridge-mobile@2x.jpg 2x" alt="Мост дьявола">
@@ -124,9 +144,9 @@
                 <cite class="gallery__author">Автор фото: Антон</cite>
               </div>
               <div>
-                <button class="gallery__button-like gallery__button-like--position">
+                <button class="gallery__button--like">
                   <span class="visually-hidden">Понравилось</span>
-                  <span class="button__likes-counter"> 254</span>
+                  <span class="button__likes--counter"> 254</span>
                 </button>
               </div>
             </div>
@@ -140,7 +160,14 @@
           </p>
         </div>
         <div class="video-presentation__video">
-          <video class="video-presentation__video-player"></video>
+          <picture>
+            <source type="image/webp" media="(min-width: 1200px)" srcset="img/video-desktop@1x.webp 1x, img/video-desktop@2x.webp 2x">
+            <source type="image/webp" media="(min-width: 768px)" srcset="img/video-tablet@1x.webp 1x, img/video-tablet@2x.webp 2x">
+            <source type="image/webp" srcset="img/video-mobile@1x.webp 1x, img/video-mobile@2x.webp 2x">
+            <source media="(min-width: 1200px)" srcset="img/video-desktop@1x.jpg 1x, img/video-desktop@2x.jpg 2x">
+            <source media="(min-width: 768px)" srcset="img/video-tablet@1x.jpg 1x, img/video-tablet@2x.jpg 2x">
+            <img class="video-presentation__video-player" src="img/video-mobile@1x.jpg" srcset="img/video-mobile@2x.jpg 2x" alt="Видео постер">
+          </picture>
           <div class="video-presentation__video-control">
             <div class="video-presentation__video-replay">
               <svg class="video-presentation__video-control-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="20px" viewBox="0 0 16 20" enable-background="new 0 0 16 20" xml:space="preserve">

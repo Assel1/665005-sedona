@@ -13,10 +13,6 @@
   }
 }
 
-//.gallery__photo-wrapper {
-//  width: 280px;
-//}
-
 .gallery__photo-link {
   display: block;
   height: 270px;
@@ -50,31 +46,14 @@
   padding-bottom: 8px;
 }
 
-.gallery__button-like {
+.gallery__button--like {
   background-image: url("../img/icon-like.svg");
   background-position: 0 2px;
   background-repeat: no-repeat;
   padding: 0;
   background-color: #ffffff;
   border: none;
-}
-
-.button__likes-counter {
-  padding-left: 35px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 24px;
-  color: black;
-  letter-spacing: -0.9px;
-}
-
-.button__likes-counter--road {
-  padding-left: 35px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 24px;
-  color: black;
-  letter-spacing: -0.9px;
+  margin-top: 7px;
 }
 
 @media (min-width: $tablet-up) {
@@ -117,26 +96,23 @@
 
   .gallery__title-description {
     display: flex;
-    padding: 15px 15px 9px 21px;
+    padding: 15px 15px 17px 21px;
     background-color: #f2f2f2;
     flex-direction: row;
   }
 
   .gallery__title-description--big {
-    padding-top: 17px;
-    padding-bottom: 9px;
+    padding-top: 18px;
+    padding-bottom: 17px;
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  .gallery__button-like {
+  .gallery__button--like {
     background-color: #f2f2f2;
     border: none;
-  }
-
-  .gallery__button-like--position {
-    right: 31px;
-    top: 25px;
+    margin-right: 14px;
+    margin-top: 10px;
   }
 }
 
@@ -195,29 +171,10 @@
     padding-bottom: 1px;
   }
 
-  .gallery__button-like {
+  .gallery__button--like {
     background-image: url("../img/icon-like-white.svg");
     background-color: rgba(0, 0, 0, 0);
-    right: 18px;
-  }
-
-  .gallery__button-like--position {
-    right: 27px;
-    top: 28px;
-  }
-
-  .button__likes-counter {
-    color: #ffffff;
-    padding-right: 1px;
-  }
-
-  .button__likes-counter--road {
-    padding-left: 31px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    color: white;
-    letter-spacing: -0.9px;
-    margin-right: 10px;
+    margin-top: 8px;
+    margin-right: 3px;
   }
 }
