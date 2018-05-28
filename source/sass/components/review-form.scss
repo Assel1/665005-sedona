@@ -16,7 +16,7 @@
   text-transform: uppercase;
 }
 
-.footnote {
+.review-form__footnote {
   display: none;
 }
 
@@ -90,7 +90,6 @@
   padding-left: 20px;
   padding-bottom: 20px;
   width: 100%;
-
   background-color: $section-v4_bg-color;
 }
 
@@ -110,7 +109,7 @@
     width: 50%;
   }
 
-  .footnote {
+  .review-form__footnote {
     order: 7;
     display: block;
     margin-top: 18px;
