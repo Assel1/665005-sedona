@@ -141,19 +141,19 @@
   height: 38px;
 }
 
-.section-list__sub-list-item-house .section-list__sub-list-bold::before {
+.section-list__sub-list-item--house .section-list__sub-list-bold::before {
   background-image: url("../img/icon-house.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.section-list__sub-list-item-gift .section-list__sub-list-bold::before {
+.section-list__sub-list-item--gift .section-list__sub-list-bold::before {
   background-image: url("../img/icon-gift.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.section-list__sub-list-item-food .section-list__sub-list-bold::before {
+.section-list__sub-list-item--food .section-list__sub-list-bold::before {
   background-image: url("../img/icon-burger.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -171,7 +171,7 @@
   text-align: left;
 }
 
-.paragraph-gift {
+.section-list__row-to-break {
   display: none;
 }
 
@@ -308,19 +308,19 @@
     height: 76px;
   }
 
-  .section-list__sub-list-item-house .section-list__sub-list-bold::before {
+  .section-list__sub-list-item--house .section-list__sub-list-bold::before {
     background-image: url("../img/icon-house-large.svg");
     background-repeat: no-repeat;
     background-position: center;
   }
 
-  .section-list__sub-list-item-gift .section-list__sub-list-bold::before {
+  .section-list__sub-list-item--gift .section-list__sub-list-bold::before {
     background-image: url("../img/icon-gift-large.svg");
     background-repeat: no-repeat;
     background-position: center;
   }
 
-  .section-list__sub-list-item-food .section-list__sub-list-bold::before {
+  .section-list__sub-list-item--food .section-list__sub-list-bold::before {
     background-image: url("../img/icon-burger-large.svg");
     background-repeat: no-repeat;
     background-position: center;
@@ -338,19 +338,19 @@
     min-height: 84px;
   }
 
-  .paragraph-gift {
+  .section-list__row-to-break {
     display: initial;
   }
 
-  .section-list__sub-list-item-house {
+  .section-list__sub-list-item--house {
     order: 1;
   }
 
-  .section-list__sub-list-item-gift {
+  .section-list__sub-list-item--gift {
     order: 3;
   }
 
-  .section-list__sub-list-item-food {
+  .section-list__sub-list-item--food {
     order: 2;
   }
 
@@ -385,7 +385,7 @@
 }
 
 @media (min-width: $desktop-up) {
-  .paragraph-gift {
+  .section-list__row-to-break {
     display: initial;
   }
 
