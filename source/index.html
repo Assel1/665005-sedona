@@ -27,7 +27,7 @@
   <div class="wrapper">
     <header class="page-header">
       <nav class="main-navigation">
-        <ul class="main-navigation__list main-navigation__list--opened">
+        <ul class="main-navigation__list">
           <li class="main-navigation__list-item">
             <a class="main-navigation__list-link main-navigation__list-link--current">Главная</a>
           </li>
@@ -41,7 +41,9 @@
             <a class="main-navigation__list-link" href="#">HTML Academy</a>
           </li>
         </ul>
-        <div class="main-navigation__logo">
+        <button class="main-navigation__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+      </nav>
+      <div class="main-navigation__logo">
           <a class="main-navigation__logo-link" href="#">
             <picture>
               <source media="(min-width: 1200px)" srcset="img/logo-sedona-desktop.svg">
@@ -49,10 +51,7 @@
               <img class="main-navigation__logo-image" src="img/logo-sedona-mobile.svg" alt="логотип" width="102" height="83">
             </picture>
           </a>
-          <button class="main-navigation__button-burger" type="button"><span class="visually-hidden">Открыть меню</span></button>
-          <button class="main-navigation__button-close" type="button"><span class="visually-hidden">Закрыть меню</span></button>
-        </div>
-      </nav>
+      </div>
     </header>
     <main class="index-page">
       <section class="intro">

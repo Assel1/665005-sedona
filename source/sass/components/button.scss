@@ -26,11 +26,7 @@
     background-color: $button-down_bg-color;
   }
 
-  &:disabled {
+  &--disabled {
     background-color: #e5e5e5;
   }
-}
-
-.button--disabled {
-  background-color: #e5e5e5;
 }
