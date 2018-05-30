@@ -7,7 +7,6 @@
   padding-right: 20px;
   padding-left: 20px;
   padding-bottom: 15px;
-
   border-top: 1px solid #e5e5e5;
 }
 
@@ -21,6 +20,7 @@
 }
 
 .radiobutton-fieldset__label {
+  position: relative;
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -42,49 +42,41 @@
   background-color: $form-field_bg-color;
 }
 
+.radiobutton-fieldset__input + .radiobutton-fieldset__label:hover::before {
+  background-color: #e5e5e5;
+}
+
+.radiobutton-fieldset__input + .radiobutton-fieldset__label:active::before {
+ background-color: #d5d5d5;
+}
+
 .radiobutton-fieldset__input:checked + .radiobutton-fieldset__label:hover::before {
-  border-color: #e5e5e5;
+  background-color: #e5e5e5;
 }
 
 .radiobutton-fieldset__input:checked + .radiobutton-fieldset__label:active::before {
-  border-color: #d5d5d5;
-  background-color: #a4a4a4;
+ background-color: #d5d5d5;
 }
 
 .radiobutton-fieldset__input:checked + .radiobutton-fieldset__label::after {
-  display: block;
+  position: absolute;
+  top: 17px;
+  left: 17px;
   content: " ";
-  box-sizing: border-box;
-  margin-right: 23px;
-  min-width: 56px;
-  min-height: 56px;
-
+  min-width: 23px;
+  min-height: 23px;
   border-radius: 50%;
-  border-width: 17px;
-  border-style: solid;
-  border-color: $form-field_bg-color;
   background-color: #333333;
+  background-position: center;
 }
 
-.radiobutton-fieldset__input:checked + .radiobutton-fieldset__label::after {
+.radiobutton-fieldset__input:checked + .radiobutton-fieldset__label:active::after {
   opacity: 0.3;
-}
-//.radiobutton-fieldset__input + .radiobutton-fieldset__label:hover::before {
-//  background-color: #e5e5e5;
-//}
-//
-//.radiobutton-fieldset__input + .radiobutton-fieldset__label:active::before {
-//  background-color: #d5d5d5;
-//}
-
-.radiobutton-fieldset__input:disabled + .radiobutton-fieldset__label::after {
-  opacity: 0.25;
 }
 
 .radiobutton-fieldset__input:focus + .radiobutton-fieldset__label::before {
-  box-shadow: 0 0 10px 3px #dc6243 inset;
+  box-shadow: 0 0 10px 3px #74a6fa inset;
 }
-
 
 @media (min-width: $tablet-up) {
   .radiobutton-fieldset {
